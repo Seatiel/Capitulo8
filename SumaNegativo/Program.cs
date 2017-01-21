@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Capitulo8
+namespace SumaNegativo
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace Capitulo8
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Cadena());
+            Application.Run(new SumaNegativo());
         }
     }
 }
